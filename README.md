@@ -58,7 +58,7 @@ ComfyUI/
 The easiest way to get started is using the included workflow template.
 
 1. **Open Templates:** In the ComfyUI sidebar, click **Templates**.
-2. **Find the Category:** Scroll down the left panel to find `[ComfyUI-Qwen25VL-Loader]`.
+2. **Find the Category:** Scroll down the left panel to find `[Qwen2.5-VL-Clip-Loader-Prompt-Helper]`.
 3. **Load Template:** Click the `prompt_helper` template to load the full graph.
 
 ### Method 2: Manual Integration
