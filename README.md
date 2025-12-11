@@ -54,6 +54,16 @@ ComfyUI/
 
 ## Usage
 
+### Method 1: Quick Start (Recommended)
+The easiest way to get started is using the included workflow template.
+
+1. **Open Templates:** In the ComfyUI sidebar, click **Templates**.
+2. **Find the Category:** Scroll down the left panel to find `[ComfyUI-Qwen25VL-Loader]`.
+3. **Load Template:** Click the `prompt_helper` template to load the full graph.
+
+### Method 2: Manual Integration
+If you have an existing Qwen-Image workflow you prefer to modify:
+
 1. **Add Node:** Search for `Qwen2.5 VL Clip Loader / Prompt Helper`.
 2. **Select Model:** Choose your Qwen2.5 VL model folder from the dropdown.
 3. **Connect Inputs:**
@@ -62,6 +72,17 @@ ComfyUI/
 4. **Connect Outputs:**
    - **CLIP:** Connect this to your `CLIP Text Encode` node (or any node expecting a CLIP model).
    - **String:** Connect this to a `Show Text` node or directly into the text widget of your encoder to see the generated description.
+
+### Examples
+
+**Text Expansion Mode:**
+![Text Expansion Example](images/prompt-expansion.jpg)
+
+**Image Captioning / Image->Text->Image:**
+![Text Expansion Example](images/img-to-prompt-to-image.jpg)
+
+**Hybrid Mode (Image + Text):**
+![Hybrid Mode Example](images/prompt-expansion+img-to-text.jpg)
 
 ## Disclaimer & Legal
 
